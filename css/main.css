@@ -54,7 +54,7 @@ body {
 	color: black;
 	/**#D8D8D8;**/
 	font-family: 'italic';
-	text-align: left;
+	text-align: center;
 }
 
 .header h1 {
@@ -85,7 +85,34 @@ body {
 
 .item {
 	display : inline-block;
-		padding: 15px 35px 55px 15px;
+		padding: 45px 55px 75px 55px;
 		
 }
 
+#social {
+background-color: grey;
+	padding: 5% 0;
+
+}
+
+#social > div{
+	margin :0 auto;
+	width : 20%;
+
+}
+
+#social > a {
+	background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 40px 74px;
+    text-align: center;
+}
+
+#social > a:nth-child(n+3) {
+	margin-left: 35%;
+}
+#social h3 {
+	margin : 0;
+
+}
