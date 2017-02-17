@@ -90,29 +90,77 @@ body {
 }
 
 #social {
-background-color: grey;
+background-color: lightgrey;
 	padding: 5% 0;
 
 }
 
 #social > div{
-	margin :0 auto;
-	width : 20%;
+	margin :12px;
+	width : 10%;
 
 }
 
 #social > a {
-	background-color: black;
-    color: white;
+	background-color: #DAA520;
+	border-style: double;
+    color: black;
     display: inline-block;
-    padding: 40px 74px;
+    padding: 25px 45px 45px 45px;
     text-align: center;
 }
 
-#social > a:nth-child(n+3) {
+social > a:nth-child(n+3) {
 	margin-left: 35%;
 }
 #social h3 {
 	margin : 0;
 
 }
+.statement h3 {
+	font-size: 18px;
+	font-weight: 50;
+	margin-top:35px;
+	text-align: center;
+}
+
+.contact {
+	background-color: black;
+	box-sizing: border-box;
+
+}
+.contact h3
+{
+	text-align: left;
+	color: white;
+	margin-top: : 12px;
+
+}
+input[type=text]{
+	width: 70%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+      font-size: 16px;
+}
+
+input[type=send] {
+    width:70%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}]
+}
+
+
+
+
+}
+
